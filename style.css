@@ -1,0 +1,140 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #D7DBDD ;
+}
+header{
+	background-color:#909497;
+	color: #BDC3C7;
+}
+nav ul{
+	list-style: none;
+	display: flex;
+	justify-content:center;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+	font-size: 50px;
+}
+nav li{
+	margin: 0;
+}
+nav a{
+
+	color: #ECF0F1 ;
+	font-family: sans-serif;
+}
+main{
+	display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-gap: 20px;
+    padding: 20px;
+
+}
+section{
+	background-color: #979A9A;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.2);
+
+}
+footer{
+	background-color: #979A9A;
+	color: #fff;
+	padding: 20px;
+	text-align: center;
+}
+@media(max-width:768px){
+	nav{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	nav li{
+		margin: 10px 0;
+
+	}
+	main{
+		grid-template-columns: 1fr;
+	}
+}
+p{
+	font-family: sans-serif;
+	font-size: 25px;
+}
+button{
+	border-radius: 50px;
+	font-size: 40px;
+	font-family: cursive;
+}
+utton {
+  border-radius: 20px;
+  border: none;
+  padding: 5px 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 11px;
+  outline: none;
+}
+button:hover {
+  cursor: pointer;
+}
+
+.button-dark {
+  background: #1ed760;
+  color: white;
+  border: 1px solid #1ed760;
+}
+.button-dark:hover {
+  background: #43e57d;
+}
+
+.button-light {
+  background: none;
+  color: #darkgray;
+  border: 1px solid #c8c8c8;
+}
+.button-light:hover {
+  border-color: white;
+  color: white;
+}
+
+form{
+border-radius: 10px;
+}
+input[type=text] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+input[type=email] {
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+
+
+
+
+
+.form-submit {
+	background: #B9DFFF;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}
+
+.form-submit:hover {
+	background: #016ABC;
+	color: #fff;
+	border: 1px solid #eee;
+	border-radius: 20px;
+	box-shadow: 5px 5px 5px #eee;
+	text-shadow: none;
+}

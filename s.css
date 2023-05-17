@@ -1,0 +1,66 @@
+body {
+  background: #D7DBDD ;
+  font-family: "Roboto", sans-serif;
+    align-items: center;
+}
+body a {
+  color: #aaaaaa;
+    align-items: center;
+      align-items: center;
+}
+body a:hover {
+  color: #c8c8c8;
+    align-items: center;
+}
+ 
+
+@media (max-width: 1400px) {
+  .current-track__actions {
+    width: 10%;
+  }
+  .current-track__progress {
+    width: 50%;
+  }
+  .current-track__options {
+    width: 40%;
+  }
+}
+@media (max-width: 980px) {
+  .current-track__actions {
+    width: 10%;
+  }
+  .current-track__progress {
+    width: 40%;
+  }
+  .current-track__options {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .current-track__actions {
+    width: 25%;
+  }
+  .current-track__progress {
+    width: 75%;
+  }
+  .current-track__options {
+    width: 100%;
+  }
+lign-items: flex-end;
+}
+.artist__header .artist__info .profile__img {
+  margin-right: 15px;
+    align-items: center;
+}
+.artist__header .artist__info .profile__img img {
+  width: 550px;
+  height: 550px;
+  border-radius: 50%;
+    align-items: center;
+}
+p{
+  font-family: sans-serif;
+  font-size: 25px;
+}
+
+
